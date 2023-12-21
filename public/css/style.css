@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.nav_height{
+   background-color: #002!important;
+}
+img:hover{
+  cursor: pointer;
+}
+
+.navbar-brand,.nav-link{
+	color: white!important;
+}
+
+.navbar-toggler{
+	background-color: white!important;
+}
+
+.about ul li{
+	padding: 0 1.5rem;
+}
+
+.about_welcome{
+	color: brown;
+	font-size: 1.2rem;
+}
+
+section{
+	min-height: calc(100vh - 64px - 45px);	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+span{
+	color: deepskyblue;
+}
+
+.btn{
+  background-color: gray;
+  color: white;
+  border-radius: 3rem;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.overflow{
+	margin-left: 8rem;
+	width: 23rem;
+	height: 20rem;
+	overflow: hidden;
+}
+
+.about_text{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.section{
+	min-height: calc(100vh - 64px - 45px);
+}
+
+.search{
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.search input{
+	background-color: black;
+	border:none;
+	color: white;
+	padding: 8px 20px;
+	width: 25rem;
+	height: 2.5rem;
+	border-radius: 25px;
+	outline: none;
+}
+
+.search_box{
+	display: inline-block;
+	position: relative;
+}
+
+.search_btn{
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	background-color: blue;
+	color: white;
+	width: 5rem;
+	height: 2rem;
+	border-radius: 15px;
+	padding: 3px;
+	border:none;
+	font-size: 1rem;
+}
+
+::placeholder{
+	color: white;
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.tempInfo{
+	width: 25rem;
+	margin: 2rem auto;
+	background-color: #333;
+	color: white;
+	border-radius: 20px;
+}
+
+.top_layer{
+	display: flex;
+	justify-content: space-between;
+	padding: 6px 15px;
+	border-radius: 20px 20px 0px 0px;
+	background-color: #222;
+}
+
+.main_layer{
+	display: flex;
+	flex-direction: column;
+	height: 15rem ;
+	padding: 1rem;
+}
+
+.middle_layer{
+	margin-top: 5.5rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+#city_name{
+	font-size: 2rem;
+}
+
+#temp_info{
+	font-size: 2rem;
+}
+
+sup{
+	margin-left: 6px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #222;
+	color: white;
+	height: 45px;
+}

@@ -1,0 +1,79 @@
+
+@media only screen and (max-width: 540px) {
+
+section{
+  padding: 1rem;
+  align-items: normal;
+}
+
+.section{
+	padding: 1rem;
+}
+
+.about_text{
+	font-size: 1.2rem;
+}
+
+p{
+	font-size: 1.4rem;
+}
+
+.home_about{
+	font-size: 1.6rem;
+}
+
+.btn{
+  font-size: 0.8rem;
+  padding: 6px;
+}
+
+.overflow{
+	margin: 3rem 0rem;
+	width: 22rem;
+	height: 20rem;
+}
+
+.carousel-inner img{
+	width:350px;
+}
+
+.search_box{
+	margin: 3.5rem 0;
+}
+
+.search input{
+	background-color: black;
+	border:none;
+	color: white;
+	padding: 8px 20px;
+	width: 22rem;
+	height: 2.6rem;
+	border-radius: 25px;
+	outline: none;
+}
+
+.search_btn{
+	position: absolute;
+	top: 5px;
+	right: 7px;
+	background-color: blue;
+	color: white;
+	width: 3.2rem;
+	height: 1.8rem;
+	border-radius: 15px;
+	padding: 2px;
+	border:none;
+	font-size: 0.8rem;
+}
+
+::placeholder{
+	color: white;
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.tempInfo{
+	width: auto;
+}
+
+}
