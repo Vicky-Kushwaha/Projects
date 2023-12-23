@@ -4,14 +4,20 @@
 section{
   padding: 1rem;
   align-items: normal;
+  min-height: calc(100vh - 56px - 45px);
 }
 
 .section{
 	padding: 1rem;
+	min-height: calc(100vh - 56px - 45px);
 }
 
 .about_text{
 	font-size: 1.2rem;
+}
+
+.about_img img{
+	width: 300px;
 }
 
 p{
