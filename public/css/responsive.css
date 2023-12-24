@@ -16,8 +16,8 @@ section{
 	font-size: 1.2rem;
 }
 
-.about_img img{
-	width: 300px;
+.about_img{
+	width: 280px;
 }
 
 p{
@@ -35,7 +35,7 @@ p{
 
 .overflow{
 	margin: 3rem 0rem;
-	width: 22rem;
+	width: 22.5rem;
 	height: 20rem;
 }
 
